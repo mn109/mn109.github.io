@@ -1,3 +1,7 @@
+header {
+    text-align: center;          /* Центрируем текст в header */
+}
+
 body {
   max-width: 40em;
   margin: 0 auto;
@@ -20,22 +24,6 @@ section {
 img {
   max-width: 100%;
   height: auto;
-}
-
-nav ul {
-    list-style-type: none;  /* Убираем маркеры списка */
-    padding: 0;             /* Убираем отступы */
-    margin: 0;              /* Убираем внешние отступы */
-}
-
-nav ul li {
-    display: inline;         /* Выстраиваем элементы в ряд */
-    margin-right: 20px;     /* Отступ между элементами */
-}
-
-nav ul li a {
-    text-decoration: none;   /* Убираем подчеркивание на ссылках */
-    color: #000;            /* Цвет текста ссылки */
 }
 
 nav ul li a:hover {
